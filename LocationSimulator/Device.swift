@@ -40,9 +40,15 @@ class Device: NSObject {
     func simulateLocation(_ location: CLLocationCoordinate2D) {
         let lat = location.latitude
         let lng = location.longitude
-        
-        let output = Process.execute("idevicelocation \(lat) \(lng) -u \(UDID)")
-        print(output)
+
+        var command = "idevicelocation \(lat) \(lng)"
+
+        if lat < 0 {
+            command = "idevicelocation -- \(lat) \(lng)"
+        } else if lng < 0 {
+            command = "idevicelocation \(lat) -- \(lng)"
+        }
+        Process.execute(command)
     }
     
     func disableSimulation() {
