@@ -7,34 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		130F510A20AE9634002A61F1 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130F510920AE9634002A61F1 /* WindowController.swift */; };
-		130F510C20AED69B002A61F1 /* NSView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130F510B20AED69B002A61F1 /* NSView+Extension.swift */; };
-		1344BEBF20D10C7800355F49 /* UserLocationAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1344BEBE20D10C7800355F49 /* UserLocationAnnotationView.swift */; };
-		13A3D5F720D20ED300546645 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A3D5F620D20ED300546645 /* Device.swift */; };
-		13A3D5FB20D2227200546645 /* Process+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A3D5FA20D2227200546645 /* Process+Utility.swift */; };
-		13BA351A20A433EE00A0431C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BA351920A433EE00A0431C /* AppDelegate.swift */; };
-		13BA351C20A433EE00A0431C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BA351B20A433EE00A0431C /* ViewController.swift */; };
-		13BA351E20A433EF00A0431C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BA351D20A433EF00A0431C /* Assets.xcassets */; };
-		13BA352120A433EF00A0431C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BA351F20A433EF00A0431C /* Main.storyboard */; };
+		1330669B2477D60F00F238EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1330669A2477D60F00F238EC /* AppDelegate.swift */; };
+		1330669D2477D60F00F238EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1330669C2477D60F00F238EC /* ContentView.swift */; };
+		1330669F2477D61000F238EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1330669E2477D61000F238EC /* Assets.xcassets */; };
+		133066A22477D61000F238EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133066A12477D61000F238EC /* Preview Assets.xcassets */; };
+		133066A52477D61000F238EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133066A32477D61000F238EC /* Main.storyboard */; };
+		133066AF2477D69800F238EC /* AccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133066AE2477D69800F238EC /* AccessoryView.swift */; };
+		133066B12477E7F200F238EC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133066B02477E7F200F238EC /* MapView.swift */; };
+		133066B32477E81500F238EC /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133066B22477E81500F238EC /* Segment.swift */; };
+		133066B72478BB6100F238EC /* Transportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133066B62478BB6100F238EC /* Transportation.swift */; };
+		133066BB2478C48400F238EC /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133066BA2478C48400F238EC /* Device.swift */; };
+		133066BD2478C4AE00F238EC /* Process+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133066BC2478C4AE00F238EC /* Process+Utility.swift */; };
+		133066BF2478DF5E00F238EC /* AccessoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133066BE2478DF5E00F238EC /* AccessoryViewModel.swift */; };
+		133066C12478E0CC00F238EC /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133066C02478E0CC00F238EC /* ContentViewModel.swift */; };
+		133066C72478E5B000F238EC /* CLLocationCoordinate2D+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133066C62478E5B000F238EC /* CLLocationCoordinate2D+Utility.swift */; };
+		133066C92478E66E00F238EC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133066C82478E66E00F238EC /* Location.swift */; };
+		1345705B247BAC930083B730 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345705A247BAC930083B730 /* IntroductionView.swift */; };
+		1345705D247BADCE0083B730 /* IntroductionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345705C247BADCE0083B730 /* IntroductionViewModel.swift */; };
+		1345705F247BAE9F0083B730 /* ErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345705E247BAE9F0083B730 /* ErrorAlert.swift */; };
+		13DD0B62247B6D38007CEB23 /* MapViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DD0B61247B6D38007CEB23 /* MapViewCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		130F510920AE9634002A61F1 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
-		130F510B20AED69B002A61F1 /* NSView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSView+Extension.swift"; sourceTree = "<group>"; };
-		1344BEBE20D10C7800355F49 /* UserLocationAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationAnnotationView.swift; sourceTree = "<group>"; };
-		13A3D5F620D20ED300546645 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
-		13A3D5FA20D2227200546645 /* Process+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Process+Utility.swift"; sourceTree = "<group>"; };
-		13BA351620A433EE00A0431C /* LocationSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13BA351920A433EE00A0431C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13BA351B20A433EE00A0431C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		13BA351D20A433EF00A0431C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		13BA352020A433EF00A0431C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		13BA352220A433EF00A0431C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13BA352320A433EF00A0431C /* LocationSimulator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LocationSimulator.entitlements; sourceTree = "<group>"; };
+		133066972477D60F00F238EC /* LocationSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1330669A2477D60F00F238EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1330669C2477D60F00F238EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1330669E2477D61000F238EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		133066A12477D61000F238EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		133066A42477D61000F238EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		133066A62477D61000F238EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133066A72477D61000F238EC /* LocationSimulator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LocationSimulator.entitlements; sourceTree = "<group>"; };
+		133066AE2477D69800F238EC /* AccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryView.swift; sourceTree = "<group>"; };
+		133066B02477E7F200F238EC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		133066B22477E81500F238EC /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
+		133066B62478BB6100F238EC /* Transportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transportation.swift; sourceTree = "<group>"; };
+		133066BA2478C48400F238EC /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		133066BC2478C4AE00F238EC /* Process+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Process+Utility.swift"; sourceTree = "<group>"; };
+		133066BE2478DF5E00F238EC /* AccessoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryViewModel.swift; sourceTree = "<group>"; };
+		133066C02478E0CC00F238EC /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		133066C62478E5B000F238EC /* CLLocationCoordinate2D+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Utility.swift"; sourceTree = "<group>"; };
+		133066C82478E66E00F238EC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		1345705A247BAC930083B730 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		1345705C247BADCE0083B730 /* IntroductionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewModel.swift; sourceTree = "<group>"; };
+		1345705E247BAE9F0083B730 /* ErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlert.swift; sourceTree = "<group>"; };
+		13DD0B61247B6D38007CEB23 /* MapViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13BA351320A433EE00A0431C /* Frameworks */ = {
+		133066942477D60F00F238EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,58 +64,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1344BEBD20D10AFD00355F49 /* Supporting Files */ = {
+		1330668E2477D60F00F238EC = {
 			isa = PBXGroup;
 			children = (
-				13BA351D20A433EF00A0431C /* Assets.xcassets */,
-				13BA352320A433EF00A0431C /* LocationSimulator.entitlements */,
-				13BA352220A433EF00A0431C /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		13BA350D20A433ED00A0431C = {
-			isa = PBXGroup;
-			children = (
-				13BA351820A433EE00A0431C /* LocationSimulator */,
-				13BA351720A433EE00A0431C /* Products */,
+				133066992477D60F00F238EC /* LocationSimulator */,
+				133066982477D60F00F238EC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		13BA351720A433EE00A0431C /* Products */ = {
+		133066982477D60F00F238EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13BA351620A433EE00A0431C /* LocationSimulator.app */,
+				133066972477D60F00F238EC /* LocationSimulator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13BA351820A433EE00A0431C /* LocationSimulator */ = {
+		133066992477D60F00F238EC /* LocationSimulator */ = {
 			isa = PBXGroup;
 			children = (
-				13BA351920A433EE00A0431C /* AppDelegate.swift */,
-				13BA351F20A433EF00A0431C /* Main.storyboard */,
-				130F510920AE9634002A61F1 /* WindowController.swift */,
-				13BA351B20A433EE00A0431C /* ViewController.swift */,
-				1344BEBE20D10C7800355F49 /* UserLocationAnnotationView.swift */,
-				130F510B20AED69B002A61F1 /* NSView+Extension.swift */,
-				13A3D5F620D20ED300546645 /* Device.swift */,
-				13A3D5FA20D2227200546645 /* Process+Utility.swift */,
-				1344BEBD20D10AFD00355F49 /* Supporting Files */,
+				1330669A2477D60F00F238EC /* AppDelegate.swift */,
+				133066C22478E49200F238EC /* Views */,
+				133066C32478E49B00F238EC /* ViewModels */,
+				133066C52478E4A800F238EC /* Models */,
+				133066C42478E4A300F238EC /* Helpers */,
+				133066AD2477D61600F238EC /* Supporting Files */,
+				133066A02477D61000F238EC /* Preview Content */,
 			);
 			path = LocationSimulator;
+			sourceTree = "<group>";
+		};
+		133066A02477D61000F238EC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				133066A12477D61000F238EC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		133066AD2477D61600F238EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1330669E2477D61000F238EC /* Assets.xcassets */,
+				133066A32477D61000F238EC /* Main.storyboard */,
+				133066A62477D61000F238EC /* Info.plist */,
+				133066A72477D61000F238EC /* LocationSimulator.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		133066C22478E49200F238EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1345705A247BAC930083B730 /* IntroductionView.swift */,
+				133066AE2477D69800F238EC /* AccessoryView.swift */,
+				1330669C2477D60F00F238EC /* ContentView.swift */,
+				133066B02477E7F200F238EC /* MapView.swift */,
+				133066B22477E81500F238EC /* Segment.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		133066C32478E49B00F238EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1345705C247BADCE0083B730 /* IntroductionViewModel.swift */,
+				133066BE2478DF5E00F238EC /* AccessoryViewModel.swift */,
+				133066C02478E0CC00F238EC /* ContentViewModel.swift */,
+				13DD0B61247B6D38007CEB23 /* MapViewCoordinator.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		133066C42478E4A300F238EC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				133066BC2478C4AE00F238EC /* Process+Utility.swift */,
+				133066C62478E5B000F238EC /* CLLocationCoordinate2D+Utility.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		133066C52478E4A800F238EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				133066B62478BB6100F238EC /* Transportation.swift */,
+				133066C82478E66E00F238EC /* Location.swift */,
+				133066BA2478C48400F238EC /* Device.swift */,
+				1345705E247BAE9F0083B730 /* ErrorAlert.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13BA351520A433EE00A0431C /* LocationSimulator */ = {
+		133066962477D60F00F238EC /* LocationSimulator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13BA352620A433EF00A0431C /* Build configuration list for PBXNativeTarget "LocationSimulator" */;
+			buildConfigurationList = 133066AA2477D61000F238EC /* Build configuration list for PBXNativeTarget "LocationSimulator" */;
 			buildPhases = (
-				13BA351220A433EE00A0431C /* Sources */,
-				13BA351320A433EE00A0431C /* Frameworks */,
-				13BA351420A433EE00A0431C /* Resources */,
+				133066932477D60F00F238EC /* Sources */,
+				133066942477D60F00F238EC /* Frameworks */,
+				133066952477D60F00F238EC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -103,30 +173,25 @@
 			);
 			name = LocationSimulator;
 			productName = LocationSimulator;
-			productReference = 13BA351620A433EE00A0431C /* LocationSimulator.app */;
+			productReference = 133066972477D60F00F238EC /* LocationSimulator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		13BA350E20A433ED00A0431C /* Project object */ = {
+		1330668F2477D60F00F238EC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Watanabe Toshinori";
 				TargetAttributes = {
-					13BA351520A433EE00A0431C = {
-						CreatedOnToolsVersion = 9.3;
-						SystemCapabilities = {
-							com.apple.Sandbox = {
-								enabled = 0;
-							};
-						};
+					133066962477D60F00F238EC = {
+						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = 13BA351120A433ED00A0431C /* Build configuration list for PBXProject "LocationSimulator" */;
+			buildConfigurationList = 133066922477D60F00F238EC /* Build configuration list for PBXProject "LocationSimulator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,50 +199,60 @@
 				en,
 				Base,
 			);
-			mainGroup = 13BA350D20A433ED00A0431C;
-			productRefGroup = 13BA351720A433EE00A0431C /* Products */;
+			mainGroup = 1330668E2477D60F00F238EC;
+			productRefGroup = 133066982477D60F00F238EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13BA351520A433EE00A0431C /* LocationSimulator */,
+				133066962477D60F00F238EC /* LocationSimulator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		13BA351420A433EE00A0431C /* Resources */ = {
+		133066952477D60F00F238EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13BA351E20A433EF00A0431C /* Assets.xcassets in Resources */,
-				13BA352120A433EF00A0431C /* Main.storyboard in Resources */,
+				133066A52477D61000F238EC /* Main.storyboard in Resources */,
+				133066A22477D61000F238EC /* Preview Assets.xcassets in Resources */,
+				1330669F2477D61000F238EC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		13BA351220A433EE00A0431C /* Sources */ = {
+		133066932477D60F00F238EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13BA351C20A433EE00A0431C /* ViewController.swift in Sources */,
-				130F510C20AED69B002A61F1 /* NSView+Extension.swift in Sources */,
-				13A3D5FB20D2227200546645 /* Process+Utility.swift in Sources */,
-				130F510A20AE9634002A61F1 /* WindowController.swift in Sources */,
-				13A3D5F720D20ED300546645 /* Device.swift in Sources */,
-				13BA351A20A433EE00A0431C /* AppDelegate.swift in Sources */,
-				1344BEBF20D10C7800355F49 /* UserLocationAnnotationView.swift in Sources */,
+				1330669D2477D60F00F238EC /* ContentView.swift in Sources */,
+				133066B32477E81500F238EC /* Segment.swift in Sources */,
+				1345705B247BAC930083B730 /* IntroductionView.swift in Sources */,
+				13DD0B62247B6D38007CEB23 /* MapViewCoordinator.swift in Sources */,
+				133066B12477E7F200F238EC /* MapView.swift in Sources */,
+				133066BF2478DF5E00F238EC /* AccessoryViewModel.swift in Sources */,
+				133066C72478E5B000F238EC /* CLLocationCoordinate2D+Utility.swift in Sources */,
+				133066AF2477D69800F238EC /* AccessoryView.swift in Sources */,
+				133066C92478E66E00F238EC /* Location.swift in Sources */,
+				1330669B2477D60F00F238EC /* AppDelegate.swift in Sources */,
+				133066C12478E0CC00F238EC /* ContentViewModel.swift in Sources */,
+				133066B72478BB6100F238EC /* Transportation.swift in Sources */,
+				133066BB2478C48400F238EC /* Device.swift in Sources */,
+				1345705F247BAE9F0083B730 /* ErrorAlert.swift in Sources */,
+				133066BD2478C4AE00F238EC /* Process+Utility.swift in Sources */,
+				1345705D247BADCE0083B730 /* IntroductionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		13BA351F20A433EF00A0431C /* Main.storyboard */ = {
+		133066A32477D61000F238EC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13BA352020A433EF00A0431C /* Base */,
+				133066A42477D61000F238EC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -185,7 +260,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		13BA352420A433EF00A0431C /* Debug */ = {
+		133066A82477D61000F238EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +292,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -236,8 +310,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -245,7 +320,7 @@
 			};
 			name = Debug;
 		};
-		13BA352520A433EF00A0431C /* Release */ = {
+		133066A92477D61000F238EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -277,7 +352,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -290,70 +364,85 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		13BA352720A433EF00A0431C /* Debug */ = {
+		133066AB2477D61000F238EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LocationSimulator/LocationSimulator.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LocationSimulator/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = LocationSimulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.LocationSimulator;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.yourcompany.LocationSimulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		13BA352820A433EF00A0431C /* Release */ = {
+		133066AC2477D61000F238EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LocationSimulator/LocationSimulator.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LocationSimulator/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = LocationSimulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.LocationSimulator;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.yourcompany.LocationSimulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13BA351120A433ED00A0431C /* Build configuration list for PBXProject "LocationSimulator" */ = {
+		133066922477D60F00F238EC /* Build configuration list for PBXProject "LocationSimulator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13BA352420A433EF00A0431C /* Debug */,
-				13BA352520A433EF00A0431C /* Release */,
+				133066A82477D61000F238EC /* Debug */,
+				133066A92477D61000F238EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13BA352620A433EF00A0431C /* Build configuration list for PBXNativeTarget "LocationSimulator" */ = {
+		133066AA2477D61000F238EC /* Build configuration list for PBXNativeTarget "LocationSimulator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13BA352720A433EF00A0431C /* Debug */,
-				13BA352820A433EF00A0431C /* Release */,
+				133066AB2477D61000F238EC /* Debug */,
+				133066AC2477D61000F238EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 13BA350E20A433ED00A0431C /* Project object */;
+	rootObject = 1330668F2477D60F00F238EC /* Project object */;
 }

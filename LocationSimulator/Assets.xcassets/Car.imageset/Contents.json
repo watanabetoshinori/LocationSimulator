@@ -1,8 +1,8 @@
 {
   "images" : [
     {
+      "filename" : "Car.pdf",
       "idiom" : "universal",
-      "filename" : "MoveButton.pdf",
       "scale" : "1x"
     },
     {
@@ -15,7 +15,10 @@
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "template-rendering-intent" : "template"
   }
 }
