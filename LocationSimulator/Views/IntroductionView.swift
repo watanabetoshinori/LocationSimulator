@@ -41,7 +41,7 @@ struct IntroductionView : View {
                     .padding()
                 }
                 .padding()
-                .background(Color.white)
+                .background(Color(NSColor.textBackgroundColor))
                 .cornerRadius(20)
                 Spacer()
             }

@@ -27,12 +27,12 @@ struct ContentView: View {
 
     var moveButton: some View {
         RoundedRectangle(cornerRadius: 14)
-            .foregroundColor(self.viewModel.isAutoMoveEnabled ? .blue : .white)
+            .foregroundColor(self.viewModel.isAutoMoveEnabled ? .blue : Color("CircleBackground"))
             .overlay(
                 Image(self.viewModel.transportationImage)
                     .frame(width: 21, height: 21)
                     .aspectRatio(contentMode: .fit)
-                    .foregroundColor(self.viewModel.isAutoMoveEnabled ? .white : .blue)
+                    .foregroundColor(self.viewModel.isAutoMoveEnabled ? .white : Color("TintColor"))
             )
             .frame(width: 28, height: 28)
             .shadow(radius: 1, x: 0, y: 0.5)

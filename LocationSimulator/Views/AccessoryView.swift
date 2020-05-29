@@ -15,9 +15,9 @@ struct AccessoryView: View {
 
     var currentLocationButton: some View {
         Button(action: viewModel.currentLocationPressed) {
-            Image("CurrentLocation")
+            Image(currentLocationImageName())
                 .offset(x: 0, y: -16)
-                .foregroundColor(currentLocationButtonColor())
+                .foregroundColor(currentLocationColor())
         }
         .disabled(!viewModel.isCurrentLocationExists)
     }
@@ -50,13 +50,17 @@ struct AccessoryView: View {
 
     // UI modifications
 
-    private func currentLocationButtonColor() -> Color {
+    private func currentLocationImageName() -> String {
         if viewModel.isAutoFocusEnabled {
-            return .blue
+            return "CurrentLocationAuto"
         }
 
+        return "CurrentLocation"
+    }
+
+    private func currentLocationColor() -> Color {
         if viewModel.isCurrentLocationExists {
-            return .black
+            return Color("TintColor")
         }
 
         return .gray
