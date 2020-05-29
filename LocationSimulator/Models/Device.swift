@@ -55,12 +55,16 @@ class Device: NSObject {
         }
 
         let output = Process.execute(command)
-        print(output)
+        if output.isEmpty == false {
+            print(output)
+        }
     }
 
     func reset() {
         let output = Process.execute("idevicelocation -s -u \(UDID)")
-        print(output)
+        if output.isEmpty == false {
+            print(output)
+        }
     }
 
 }
