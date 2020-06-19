@@ -25,7 +25,8 @@ struct MapView: NSViewRepresentable {
         nsView.showsCompass = true
         nsView.showsZoomControls = true
 
-        let pressGesture = NSPressGestureRecognizer(target: context.coordinator, action: #selector(Coordinator.mapViewPressed(_:)))
+        let pressGesture = NSPressGestureRecognizer(target: context.coordinator,
+                                                    action: #selector(Coordinator.mapViewPressed(_:)))
         pressGesture.minimumPressDuration = 0.5
         pressGesture.numberOfTouchesRequired = 1
         nsView.addGestureRecognizer(pressGesture)

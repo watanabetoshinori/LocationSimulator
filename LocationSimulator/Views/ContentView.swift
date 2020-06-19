@@ -66,9 +66,9 @@ struct ContentView: View {
     // MARK: - Actions
 
     private func headingPressed(_ value: DragGesture.Value) {
-        let dx = value.location.x - 27 /* as (headingButton.width / 2) */
-        let dy = value.location.y - 27 /* as (headingButton.width / 2) */
-        self.angle = Angle(radians: Double(atan2(dx, -dy)))
+        let locationX = value.location.x - 27 /* as (headingButton.width / 2) */
+        let locationY = value.location.y - 27 /* as (headingButton.width / 2) */
+        self.angle = Angle(radians: Double(atan2(locationX, -locationY)))
 
         self.viewModel.radians = self.angle.radians
     }

@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct IntroductionView : View {
+struct IntroductionView: View {
 
     @ObservedObject var viewModel: IntroductionViewModel
 

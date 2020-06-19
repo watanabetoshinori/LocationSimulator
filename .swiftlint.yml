@@ -1,0 +1,6 @@
+disabled_rules:
+  - multiple_closures_with_trailing_closure # Conflict with the Xcode default style
+
+identifier_name:
+  excluded:
+    - id

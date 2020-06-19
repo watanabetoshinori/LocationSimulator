@@ -16,7 +16,7 @@ public extension NSNotification.Name {
 
 extension MapView {
 
-    class MapViewCoordinator: NSObject, MKMapViewDelegate  {
+    class MapViewCoordinator: NSObject, MKMapViewDelegate {
 
         let kCurrentLocationIdentifier = "CurrentLocationIdentifier"
 
@@ -31,7 +31,10 @@ extension MapView {
         }
 
         func initialize() {
-            NotificationCenter.default.addObserver(self, selector: #selector(move), name: .MoveCurrentLocation, object: nil)
+            NotificationCenter.default.addObserver(self,
+                                                   selector: #selector(move),
+                                                   name: .MoveCurrentLocation,
+                                                   object: nil)
 
             parent.location.$coordinate.sink { coordinate in
                 if coordinate.isInvalid {
@@ -48,7 +51,7 @@ extension MapView {
             }
             .store(in: &cancellables)
 
-            parent.location.$isAutoFocusEnabled.filter({ $0 }).sink { value in
+            parent.location.$isAutoFocusEnabled.filter({ $0 }).sink { _ in
                 self.focus()
             }
             .store(in: &cancellables)
